@@ -9,9 +9,7 @@
         "RiZoeLXSpam",
         "SpamBots"
       ],   
-  "repository": "https://github.com/RiZoeLX/SpamX",
-  "website": "https://github.com/RiZoeLX",
-  "success_url": "https://t.me/RiZoeLX",
+  "repository": "https://github.com/KSKPAPA/SpamBot",
   "env": {
        "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
@@ -104,9 +102,10 @@
             "required": false  
         }
     },
-    "buildpacks": [
+  "stack": "heroku-20",
+  "buildpacks": [
         {
-          "url": "heroku/python"
+            "url": "heroku/python"
         }
     ]
 }
